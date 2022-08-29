@@ -4,6 +4,7 @@ async function data(e){
     x=await x.json();
     let user=x[e.target.name];
    document.getElementById("main").style.backgroundColor="turquoise";
+   document.getElementById("main").style.opacity="1";
    document.getElementById("name").innerHTML="Name: "+user.name;
    document.getElementById("email").innerHTML="Email: "+user.email;
    document.getElementById("skill").innerHTML="Skill: "+user.skill;
