@@ -1,5 +1,5 @@
 
-testing function data(e){
+let data=testing(e)=>{
     let x = await fetch("process.env.GITHUB_TOKEN");
    process.env.GITHUB_TOKEN;
     let user=x[e.target.name];
