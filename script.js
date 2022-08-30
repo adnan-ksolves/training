@@ -1,5 +1,5 @@
 
-async function data(e){
+let data=async(e)=>{
     let x = await fetch("process.env.GITHUB_TOKEN");
     x=await x.json();
     let user=x[e.target.name];
