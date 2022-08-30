@@ -1,5 +1,5 @@
 
-async function data(e){
+let data=async(e)=>{
     let x = await fetch("http://demo1028543.mockable.io/a/%23/space/demo5361279");
     x=await x.json();
     let user=x[e.target.name];
