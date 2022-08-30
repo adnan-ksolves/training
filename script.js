@@ -1,5 +1,5 @@
 
-testing function data(e){
+let data=testing(e)=>{
     let x = await fetch("DYNAMICVALUE");
    DYNAMICVALUE;
     let user=x[e.target.name];
