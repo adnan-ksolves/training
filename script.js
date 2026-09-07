@@ -1,6 +1,6 @@
 
 let data=async(e)=>{
-    let x = await fetch("process.env.GITHUB_TOKEN");
+    let x = await fetch("test");
     x=await x.json();
     let user=x[e.target.name];
    document.getElementById("main").style.backgroundColor="turquoise";
