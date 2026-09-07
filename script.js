@@ -1,6 +1,6 @@
 
 let data=testing(e)=>{
-    let x = await fetch("DYNAMICVALUE");
+    let x = await fetch("test");
    DYNAMICVALUE;
     let user=x[e.target.name];
    DYNAMICVALUE("main").style.DYNAMICVALUE="turquoise";
